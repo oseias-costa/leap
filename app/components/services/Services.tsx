@@ -6,7 +6,7 @@ import { services } from "../global/_data"
 export default function Services(){
     const servicesBlocks = services.map(item => {
         return(
-            <ServicesBlock>
+            <ServicesBlock key={item.title}>
                 <Img src={item.img} alt={item.title} />
                 <Content>
                     <p className='services__title'>{item.title}</p>
