@@ -3,7 +3,7 @@ import { contact } from "./_data";
 
 export default function Button({ text }: { text: string }) {
   return (
-    <A href={contact.info[1].telefone} target="_blank">
+    <A href={contact.info[1].content} target="_blank">
       {text}
     </A>
   );
@@ -23,6 +23,7 @@ const A = styled.a`
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transition: 0.2s linear;
   position: relative;
+  cursor: pointer;
 
   &:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,

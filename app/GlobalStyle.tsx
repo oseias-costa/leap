@@ -1,5 +1,5 @@
 "use client";
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 * {
@@ -26,4 +26,4 @@ h1 {
   font-size: 32px;
   color: var(--color-white)
 }
-`
+`;

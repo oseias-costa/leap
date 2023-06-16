@@ -1,6 +1,7 @@
 "use client";
 import styled from "styled-components";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Headline from "./components/headline/Headline";
 import Schedule from "./components/schedule/Schedule";
@@ -18,6 +19,7 @@ export default function Home() {
       <Schedule />
       <WhoAreUs />
       <Contact />
+      <Footer />
     </Container>
   );
 }
