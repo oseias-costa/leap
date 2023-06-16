@@ -20,6 +20,11 @@ const Mollen = localFont({
       weight: '500',
       style: 'normal'
     },
+    {
+      path: './font/Mollen-LightNarrow.otf',
+      weight: '200',
+      style: 'extraLight'
+    },
   ],
   variable: '--font-mollen'
 });

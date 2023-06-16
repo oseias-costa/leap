@@ -1,10 +1,12 @@
 "use client";
 import styled from "styled-components";
+import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
 import Headline from "./components/headline/Headline";
 import Schedule from "./components/schedule/Schedule";
 import Services from "./components/services/Services";
 import Solutions from "./components/solutions/Solutions";
+import WhoAreUs from "./components/whoAreUs/WhoAreUs";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Services />
       <Solutions />
       <Schedule />
+      <WhoAreUs />
+      <Contact />
     </Container>
   );
 }

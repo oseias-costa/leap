@@ -16,7 +16,7 @@ export default function Schedule() {
 }
 
 const Container = styled.section`
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 245px;
   text-align: center;

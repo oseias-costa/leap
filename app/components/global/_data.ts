@@ -1,7 +1,8 @@
 import Legal from '../../../public/services/assuntos-regularios.png'
 import Eficienty from '../../../public/services/eficiencia-energetica.png'
 import Otimization from '../../../public/services/otimizacao-e-melhoria.png'
-
+import email from "../../../public/contact/email.png";
+import whats from "../../../public/contact/whats.png";
 
 export const headline = {
     title:
@@ -64,6 +65,7 @@ export const headline = {
   
   export const whoAreUs = {
     title: "Quem Somos",
+    subtitle: 'Nossa Equipe',
     content:
       " Na Leap Engenharia, somos apaixonados por fornecer soluções completas e eficazes para nossos Clientes. Como uma empresa especializada em Engenharia Química, estamos comprometidos em acompanhar nossos clientes desde a concepção até a operação, ajudando-os a alcançar a excelência e sustentabilidade em seus empreendimentos.",
     eng: "Eng. Ana Paula Schwengber",
@@ -76,12 +78,14 @@ export const headline = {
     subtitle: "Informações",
     info: [
       {
-        title: "email",
-        email: "contato@leapengenharia.com.br"
+        title: "Email",
+        content: "contato@leapengenharia.com.br",
+        icon: email
       },
       {
-        title: "telefone",
-        telefone: "(51) 9 9524-3392"
+        title: "Telefone",
+        content: "(51) 9 9524-3392",
+        icon: whats
       }
     ]
   };
