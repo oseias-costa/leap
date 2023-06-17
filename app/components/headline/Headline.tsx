@@ -7,20 +7,20 @@ import { headline } from "../global/_data";
 export default function Headline() {
   return (
     <Container>
-      <Img 
-        src={Background} 
-        alt="Leap Engenharia Química" 
-        fill={true} 
-        style={{objectFit:"cover"}}
+      <Img
+        src={Background}
+        alt="Leap Engenharia Química"
+        fill={true}
+        style={{ objectFit: "cover" }}
       />
-        <PositionHeadline id='Inicio'></PositionHeadline>
-        
+      <PositionHeadline id="Inicio"></PositionHeadline>
+
       <Content>
         <h1>{headline.title}</h1>
         <Descripition>{headline.description}</Descripition>
         <Button text={headline.textButton} />
 
-        <PositionServices id='Servicos'></PositionServices>
+        <PositionServices id="Servicos"></PositionServices>
       </Content>
     </Container>
   );
@@ -32,8 +32,8 @@ const Container = styled.section`
   height: 500px;
   margin-top: 77px;
 
-  @media(max-width: 940px){
-    h1{
+  @media (max-width: 940px) {
+    h1 {
       font-size: 24px;
       margin-left: 20px;
       margin-right: 20px;
@@ -56,23 +56,24 @@ const Descripition = styled.p`
   padding-top: 25px;
   padding-bottom: 45px;
 
-  @media(max-width: 940px){
+  @media (max-width: 940px) {
     font-size: 18px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 25px;
   }
 `;
 
 const Img = styled(Image)`
-  background-size: 100%
-`
+  background-size: 100%;
+`;
 
 const PositionServices = styled.p`
-    position: relative;
-    bottom: 50px;
-`
+  position: relative;
+  bottom: 50px;
+`;
 
 const PositionHeadline = styled.p`
-    position: relative;
-    bottom: 100px;
-`
+  position: relative;
+  bottom: 100px;
+`;

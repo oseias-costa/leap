@@ -79,6 +79,8 @@ export const whoAreUs = {
 export const contact = {
   title: "Contact",
   subtitle: "Informações",
+  whatsapp:
+    "https://api.whatsapp.com/send?phone=5551995243392&text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Leap%20Engenharia%20Qu%C3%ADmica.",
   info: [
     {
       title: "Email",
@@ -98,9 +100,9 @@ export const footer = {
   cnpj: "50.384.317/0001-47",
   midias: [
     {
-      name: "Instagram",
-      link: "",
-      icon: Instagram,
+      name: "Linkedin",
+      link: "https://www.linkedin.com/company/leap-engenharia/",
+      icon: Linkedin,
     },
     {
       name: "Facebook",
@@ -108,9 +110,9 @@ export const footer = {
       icon: Facebook,
     },
     {
-      name: "Linkedin",
-      link: "",
-      icon: Linkedin,
+      name: "Instagram",
+      link: "https://www.instagram.com/leap.engenharia/",
+      icon: Instagram,
     },
   ],
 };

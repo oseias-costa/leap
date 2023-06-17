@@ -21,8 +21,11 @@ const Container = styled.div`
   margin: 0 auto;
   padding-bottom: 30px;
 `;
-const Text = styled.p``;
+const Text = styled.p`
+  var(--color-gray);
+`;
 
 const H3 = styled.h3`
   font-size: 24px;
+  var(--color-blue);
 `;

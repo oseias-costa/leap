@@ -9,7 +9,7 @@ export default function Contact() {
       <ContactBlock key={item.title}>
         <Icon src={item.icon} alt={item.title} />
         <div>
-          <p>{item.title}</p>
+          <p className="ContactBlock__Title">{item.title}</p>
           <p>{item.content}</p>
         </div>
       </ContactBlock>
@@ -17,7 +17,7 @@ export default function Contact() {
   });
 
   return (
-    <Container  id='Contato'>
+    <Container id="Contato">
       <Img src={Background} alt="Leap Engenharia Química" fill={true} />
       <Title>
         <p className="Contact_subtitle">Informações</p>
@@ -31,7 +31,7 @@ export default function Contact() {
 const Container = styled.section`
   position: relative;
   height: 270px;
-  @media(max-width: 940px){
+  @media (max-width: 940px) {
     height: auto;
     padding-bottom: 40px;
   }
@@ -49,6 +49,10 @@ const Title = styled.div`
   margin: 0 auto;
   padding-bottom: 30px;
 
+  .Contact_title {
+    font-size: 24px;
+  }
+
   .Contact_subtitle,
   .Contact_title {
     color: #f0f0f0;
@@ -60,7 +64,7 @@ const Contacts = styled.div`
   position: relative;
   justify-content: center;
   flex-wrap: wrap;
-  @media(max-width: 940px){
+  @media (max-width: 940px) {
     align-items: center;
   }
 `;
@@ -75,9 +79,20 @@ const ContactBlock = styled.div`
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   width: 373.78px;
-  @media(max-width: 940px){
+
+  div > .ContactBlock__Title {
+    color: #939191;
+  }
+
+  @media (max-width: 940px) {
     margin-left: 0px;
     margin-bottom: 10px;
+  }
+
+  @media (max-width: 740px) {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
   }
 `;
 

@@ -7,7 +7,7 @@ import FooterInfo from "./FooterInfo";
 export default function Footer() {
   const socialMidia = footer.midias.map((item) => {
     return (
-      <a key={item.name} href={item.link}>
+      <a key={item.name} href={item.link} target="_blank">
         <Image src={item.icon} alt={item.name} width={36} height={36} />
       </a>
     );
@@ -34,8 +34,8 @@ export default function Footer() {
           content={contact.info[0].content}
         />
         <FooterInfo
-          label={contact.info[1].title}
-          content={contact.info[1].content}
+          label={footer.title}
+          content={footer.cnpj}
         />
         <SocialMidia>{socialMidia}</SocialMidia>
       </BlockRight>
@@ -51,7 +51,7 @@ const Container = styled.section`
   padding-top: 50px;
   padding-bottom: 20px;
   flex-wrap: wrap;
-  @media(max-width: 740px){
+  @media (max-width: 740px) {
     flex-direction: column;
     align-items: center;
   }
@@ -59,22 +59,21 @@ const Container = styled.section`
 
 const LogoBlock = styled.div``;
 
-const BlockRight = styled.div`
-`;
+const BlockRight = styled.div``;
 
 const SocialMidia = styled.div`
   display: flex;
-  @media(max-width: 740px){
+  @media (max-width: 740px) {
     justify-content: center;
     padding-bottom: 30px;
   }
-`
+`;
 
 const Menu = styled.div`
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;
-  @media(max-width: 740px){
+  @media (max-width: 740px) {
     padding-top: 30px;
     text-align: center;
   }

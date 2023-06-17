@@ -3,7 +3,7 @@ import { contact } from "./_data";
 
 export default function Button({ text }: { text: string }) {
   return (
-    <A href={contact.info[1].content} target="_blank">
+    <A href={contact.whatsapp} target="_blank">
       {text}
     </A>
   );
@@ -28,5 +28,11 @@ const A = styled.a`
   &:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
       rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  @media (max-width: 740px) {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 `;

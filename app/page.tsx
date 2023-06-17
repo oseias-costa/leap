@@ -7,6 +7,7 @@ import Headline from "./components/headline/Headline";
 import Schedule from "./components/schedule/Schedule";
 import Services from "./components/services/Services";
 import Solutions from "./components/solutions/Solutions";
+import Whatsapp from "./components/whatsapp/Whatsapp";
 import WhoAreUs from "./components/whoAreUs/WhoAreUs";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <WhoAreUs />
       <Contact />
       <Footer />
+      <Whatsapp />
     </Container>
   );
 }

@@ -40,6 +40,10 @@ export default function Solutions() {
 
 const Container = styled.section`
   padding-top: 50px;
+  
+  @media(max-width: 740px){
+    padding-top: 0;
+  }
 `;
 
 const SolutionBlockLeft = styled.div`
@@ -51,19 +55,21 @@ const SolutionBlockLeft = styled.div`
   position: relative;
   left: 21px;
 
-  @media(max-width: 940px){
+  @media (max-width: 940px) {
     width: auto;
     margin-right: 0px;
     border-right: 0px solid #939191;
     left: 0;
     text-align: center;
     margin-top: 85px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
   }
 
   .title {
     height: 50px;
     padding-bottom: 10px;
+    color: #002a40;
+
     &:before {
       content: "";
       display: inline-block;
@@ -73,7 +79,7 @@ const SolutionBlockLeft = styled.div`
       width: 3px;
       bottom: 201px;
       right: 294px;
-      @media(max-width: 940px){
+      @media (max-width: 940px) {
         height: 170px;
         right: 0px;
         left: 0px;
@@ -85,6 +91,8 @@ const SolutionBlockLeft = styled.div`
 
   .content {
     height: 114px;
+    color: #7f7e7e;
+
     &:before {
       content: "";
       display: inline-block;
@@ -95,11 +103,10 @@ const SolutionBlockLeft = styled.div`
       left: 200px;
       bottom: 220px;
       z-index: 1;
-      @media(max-width: 940px){
+      @media (max-width: 940px) {
         display: none;
       }
     }
-
   }
 `;
 const SolutionBlockRight = styled.div`
@@ -111,7 +118,7 @@ const SolutionBlockRight = styled.div`
   position: relative;
   right: 21px;
 
-  @media(max-width: 940px){
+  @media (max-width: 940px) {
     margin-top: 85px;
     margin-left: 0px;
     border-left: 0px solid #939191;
@@ -134,8 +141,8 @@ const SolutionBlockRight = styled.div`
       height: 20px;
       width: 3px;
       bottom: 201px;
-      right: 217px;
-      @media(max-width: 940px){
+      right: 218px;
+      @media (max-width: 940px) {
         height: 170px;
         right: 0px;
         left: 0px;
@@ -146,6 +153,7 @@ const SolutionBlockRight = styled.div`
 
   .content {
     height: 114px;
+    color: #7f7e7e;
 
     &:before {
       content: "";
@@ -157,11 +165,10 @@ const SolutionBlockRight = styled.div`
       left: 0px;
       bottom: 220px;
       z-index: 1;
-      @media(max-width: 940px){
+      @media (max-width: 940px) {
         display: none;
       }
     }
-
   }
 `;
 
@@ -174,15 +181,15 @@ const SolutionBlockRightEnd = styled.div`
   position: relative;
   right: 21px;
 
-  @media(max-width: 940px){
-    margin-top: 85px;
+  @media (max-width: 940px) {
+    margin-top: 55px;
     margin-left: 0px;
     border-left: 0px solid #939191;
     width: auto;
     right: 0px;
     text-align: center;
     padding-left: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
   }
 
   .title {
@@ -198,7 +205,7 @@ const SolutionBlockRightEnd = styled.div`
       width: 3px;
       bottom: 201px;
       right: 220px;
-      @media(max-width: 940px){
+      @media (max-width: 940px) {
         height: 170px;
         right: 0px;
         left: 0px;
@@ -209,6 +216,7 @@ const SolutionBlockRightEnd = styled.div`
 
   .content {
     height: 114px;
+    color: #7f7e7e;
 
     &:before {
       content: "";
@@ -220,11 +228,10 @@ const SolutionBlockRightEnd = styled.div`
       left: 0px;
       bottom: 220px;
       z-index: 1;
-      @media(max-width: 940px){
+      @media (max-width: 940px) {
         display: none;
       }
     }
-
   }
 `;
 
@@ -254,7 +261,7 @@ const IconLeft = styled(Image)`
   height: 96px;
   z-index: 2;
 
-  @media(max-width: 940px){
+  @media (max-width: 940px) {
     left: 0;
     margin: 0 auto;
     bottom: 70px;
@@ -270,7 +277,7 @@ const IconRight = styled(Image)`
   height: 96px;
   z-index: 2;
 
-  @media(max-width: 940px){
+  @media (max-width: 940px) {
     right: 0;
     margin: 0 auto;
     bottom: 70px;
