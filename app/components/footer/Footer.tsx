@@ -47,6 +47,7 @@ const Container = styled.section`
   background-color: var(--color-blue);
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
   padding-top: 50px;
   padding-bottom: 20px;
   flex-wrap: wrap;
@@ -72,9 +73,9 @@ const SocialMidia = styled.div`
 const Menu = styled.div`
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
   padding-bottom: 30px;
   @media(max-width: 740px){
+    padding-top: 30px;
     text-align: center;
   }
 `;
