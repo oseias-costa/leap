@@ -28,21 +28,23 @@ export default function Solutions() {
           <h3 className="title">{solutions[2].title}</h3>
           <p className="content">{solutions[2].content}</p>
         </SolutionBlockLeft>
-        <SolutionBlockRight>
+        <SolutionBlockRightEnd>
           <IconRight src={Susteinable} alt={solutions[3].title} />
           <h3 className="title">{solutions[3].title}</h3>
           <p className="content">{solutions[3].content}</p>
-        </SolutionBlockRight>
+        </SolutionBlockRightEnd>
       </SolutionBlock>
     </Container>
   );
 }
 
-const Container = styled.section``;
+const Container = styled.section`
+  padding-top: 50px;
+`;
 
 const SolutionBlockLeft = styled.div`
   width: 500px;
-  border-right: 4px solid #939191;
+  border-right: 3px solid #939191;
   padding-left: 40px;
   padding-right: 40px;
   margin-right: 540px;
@@ -68,9 +70,9 @@ const SolutionBlockLeft = styled.div`
       background-color: #939191;
       position: absolute;
       height: 20px;
-      width: 4px;
+      width: 3px;
       bottom: 201px;
-      right: 292px;
+      right: 294px;
       @media(max-width: 940px){
         height: 170px;
         right: 0px;
@@ -88,7 +90,7 @@ const SolutionBlockLeft = styled.div`
       display: inline-block;
       background-color: #939191;
       width: 280px;
-      height: 4px;
+      height: 3px;
       position: absolute;
       left: 200px;
       bottom: 220px;
@@ -102,7 +104,7 @@ const SolutionBlockLeft = styled.div`
 `;
 const SolutionBlockRight = styled.div`
   width: 500px;
-  border-left: 4px solid #939191;
+  border-left: 3px solid #939191;
   padding-right: 20px;
   padding-left: 40px;
   margin-left: 540px;
@@ -130,9 +132,9 @@ const SolutionBlockRight = styled.div`
       background-color: #939191;
       position: absolute;
       height: 20px;
-      width: 4px;
+      width: 3px;
       bottom: 201px;
-      right: 216px;
+      right: 217px;
       @media(max-width: 940px){
         height: 170px;
         right: 0px;
@@ -150,7 +152,7 @@ const SolutionBlockRight = styled.div`
       display: inline-block;
       background-color: #939191;
       width: 280px;
-      height: 4px;
+      height: 3px;
       position: absolute;
       left: 0px;
       bottom: 220px;
@@ -162,6 +164,80 @@ const SolutionBlockRight = styled.div`
 
   }
 `;
+
+const SolutionBlockRightEnd = styled.div`
+  width: 500px;
+  border-left: 0px solid #939191;
+  padding-right: 20px;
+  padding-left: 43px;
+  margin-left: 540px;
+  position: relative;
+  right: 21px;
+
+  @media(max-width: 940px){
+    margin-top: 85px;
+    margin-left: 0px;
+    border-left: 0px solid #939191;
+    width: auto;
+    right: 0px;
+    text-align: center;
+    padding-left: 20px;
+    margin-bottom: 40px;
+  }
+
+  .title {
+    height: 50px;
+    padding-bottom: 10px;
+
+    &:before {
+      content: "";
+      display: inline-block;
+      background-color: #939191;
+      position: absolute;
+      height: 20px;
+      width: 3px;
+      bottom: 201px;
+      right: 220px;
+      @media(max-width: 940px){
+        height: 170px;
+        right: 0px;
+        left: 0px;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .content {
+    height: 114px;
+
+    &:before {
+      content: "";
+      display: inline-block;
+      background-color: #939191;
+      width: 280px;
+      height: 3px;
+      position: absolute;
+      left: 0px;
+      bottom: 220px;
+      z-index: 1;
+      @media(max-width: 940px){
+        display: none;
+      }
+    }
+
+  }
+`;
+
+// const SolutionBlockRightEnd = styled(SolutionBlockRight)`
+//   border-left: 0px;
+//   padding-left: 43px;
+//   .title {
+//     &:before{
+//       right: 220px;
+//     }
+//   }
+
+// `
 
 const SolutionBlock = styled.div`
   display: flex;

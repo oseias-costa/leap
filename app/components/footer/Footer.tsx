@@ -23,10 +23,10 @@ export default function Footer() {
         />
       </LogoBlock>
       <Menu>
-        <A href="">Início</A>
-        <A href="">Serviços</A>
-        <A href="">Soluções</A>
-        <A href="">Quem Somos</A>
+        <A href="#Inicio">Início</A>
+        <A href="#Servicos">Serviços</A>
+        <A href="#Solucoes">Soluções</A>
+        <A href="#QuemSomos">Quem Somos</A>
       </Menu>
       <BlockRight>
         <FooterInfo

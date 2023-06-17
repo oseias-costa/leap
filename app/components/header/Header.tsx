@@ -7,10 +7,10 @@ export default function Header() {
     <Container>
       <Img src={Logo} alt="Logo Leap Engenharia Química" />
       <Menu>
-        <A href="">Início</A>
-        <A href="">Serviços</A>
-        <A href="">Soluções</A>
-        <A href="">Contato</A>
+        <A href="#Inicio">Início</A>
+        <A href="#Servicos">Serviços</A>
+        <A href="#Solucoes">Soluções</A>
+        <A href="#Contato">Contato</A>
       </Menu>
     </Container>
   );

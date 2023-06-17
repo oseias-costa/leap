@@ -17,7 +17,7 @@ export default function Contact() {
   });
 
   return (
-    <Container>
+    <Container  id='Contato'>
       <Img src={Background} alt="Leap Engenharia Química" fill={true} />
       <Title>
         <p className="Contact_subtitle">Informações</p>

@@ -8,6 +8,7 @@ import Logo from '../../../public/who-are-us/bigLogo.png'
 export default function WhoAreUs(){
     return(
         <Container>
+            <PositionNav id='QuemSomos'></PositionNav>
             <Title text={whoAreUs.subtitle} title={whoAreUs.title} />
             <Content>{whoAreUs.content}</Content>
             <ImgLogo src={Logo} alt='' />
@@ -105,4 +106,9 @@ const ImgLogo = styled(Image)`
         display: none;
     }
 
+`
+
+const PositionNav = styled.p`
+    position: relative;
+    bottom: 120px;
 `

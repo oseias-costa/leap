@@ -13,10 +13,14 @@ export default function Headline() {
         fill={true} 
         style={{objectFit:"cover"}}
       />
+        <PositionHeadline id='Inicio'></PositionHeadline>
+        
       <Content>
         <h1>{headline.title}</h1>
         <Descripition>{headline.description}</Descripition>
         <Button text={headline.textButton} />
+
+        <PositionServices id='Servicos'></PositionServices>
       </Content>
     </Container>
   );
@@ -61,4 +65,14 @@ const Descripition = styled.p`
 
 const Img = styled(Image)`
   background-size: 100%
+`
+
+const PositionServices = styled.p`
+    position: relative;
+    bottom: 50px;
+`
+
+const PositionHeadline = styled.p`
+    position: relative;
+    bottom: 100px;
 `
