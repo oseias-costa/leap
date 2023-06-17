@@ -20,7 +20,7 @@ export default function Headline() {
         <Descripition>{headline.description}</Descripition>
         <Button text={headline.textButton} />
 
-        <PositionServices id="Servicos"></PositionServices>
+        <PositionServices id="Atuacao"></PositionServices>
       </Content>
     </Container>
   );
@@ -30,7 +30,7 @@ const Container = styled.section`
   background-image: url("../../../public/headline/img-headline.png");
   position: relative;
   height: 500px;
-  margin-top: 77px;
+  margin-top: 87px;
 
   @media (max-width: 940px) {
     h1 {

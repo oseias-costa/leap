@@ -60,9 +60,9 @@ export const solutions = [
 ];
 
 export const shedule = {
-  title: "Agende uma visita",
+  title: "Solicite um Diagnóstico Agora",
   subtitle:
-    "Tenha uma adequação ágil as regulamentações com excelência na entregadas soluções. Entre em contato e conheça a trilha de soluções.",
+    "Tenha seu negócio impulsionado através de nossas soluções integradas. Entre em contato e conheça nossa trilha de soluções.",
   textButton: "Entrar em contato",
 };
 

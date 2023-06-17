@@ -8,7 +8,7 @@ export default function Header() {
       <Img src={Logo} alt="Logo Leap Engenharia Química" />
       <Menu>
         <A href="#Inicio">Início</A>
-        <A href="#Servicos">Serviços</A>
+        <A href="#Atuacao">Atuação</A>
         <A href="#Solucoes">Soluções</A>
         <A href="#Contato">Contato</A>
       </Menu>
@@ -30,7 +30,7 @@ const Container = styled.section`
 `;
 
 const Img = styled(Image)`
-  height: 57px;
+  height: 67px;
   width: auto;
 `;
 

@@ -33,10 +33,7 @@ export default function Footer() {
           label={contact.info[0].title}
           content={contact.info[0].content}
         />
-        <FooterInfo
-          label={footer.title}
-          content={footer.cnpj}
-        />
+        <FooterInfo label={footer.title} content={footer.cnpj} />
         <SocialMidia>{socialMidia}</SocialMidia>
       </BlockRight>
     </Container>

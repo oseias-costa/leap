@@ -48,7 +48,7 @@ const Content = styled.p`
 const Team = styled.div`
   background-color: #d8dde0;
   display: flex;
-  height: 200px;
+  height: 230px;
   padding: 35px;
   margin-top: 40px;
   position: relative;

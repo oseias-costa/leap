@@ -40,8 +40,8 @@ export default function Solutions() {
 
 const Container = styled.section`
   padding-top: 50px;
-  
-  @media(max-width: 740px){
+
+  @media (max-width: 740px) {
     padding-top: 0;
   }
 `;
@@ -68,7 +68,8 @@ const SolutionBlockLeft = styled.div`
   .title {
     height: 50px;
     padding-bottom: 10px;
-    color: #002a40;
+    font-weight: 300;
+    color: var(--color-blue);
 
     &:before {
       content: "";
@@ -91,7 +92,8 @@ const SolutionBlockLeft = styled.div`
 
   .content {
     height: 114px;
-    color: #7f7e7e;
+    font-weight: 200;
+    color: var(--color-gray);
 
     &:before {
       content: "";
@@ -132,6 +134,8 @@ const SolutionBlockRight = styled.div`
   .title {
     height: 50px;
     padding-bottom: 10px;
+    font-weight: 300;
+    color: var(--color-blue);
 
     &:before {
       content: "";
@@ -153,7 +157,8 @@ const SolutionBlockRight = styled.div`
 
   .content {
     height: 114px;
-    color: #7f7e7e;
+    color: var(--color-gray);
+    font-weight: 200;
 
     &:before {
       content: "";
@@ -195,6 +200,8 @@ const SolutionBlockRightEnd = styled.div`
   .title {
     height: 50px;
     padding-bottom: 10px;
+    font-weight: 200;
+    color: var(--color-blue);
 
     &:before {
       content: "";
@@ -216,7 +223,9 @@ const SolutionBlockRightEnd = styled.div`
 
   .content {
     height: 114px;
-    color: #7f7e7e;
+    //color: #7f7e7e;
+    font-weight: 200;
+    color: var(--color-gray);
 
     &:before {
       content: "";
