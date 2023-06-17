@@ -32,6 +32,10 @@ const ServicesBlock = styled.div`
     width: 300px;
     margin-left: 30px;
     margin-right: 30px;
+
+    @media(max-width: 940px){
+        margin-bottom: 26px; 
+    }
 `
 
 const Img = styled(Image)`

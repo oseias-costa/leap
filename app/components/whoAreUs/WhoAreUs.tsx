@@ -24,6 +24,9 @@ export default function WhoAreUs(){
 
 const Container = styled.section`
     padding-top: 60px;
+    @media(max-width: 940px){
+        
+    }
 `
 
 const Content = styled.p`
@@ -34,6 +37,11 @@ const Content = styled.p`
     color: var(--color-gray);
     position: relative;
     top: 25px;
+    @media(max-width: 940px){
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+    }
 `
 
 const Team = styled.div`
@@ -46,6 +54,12 @@ const Team = styled.div`
     z-index: 2;
     position: relative;
     bottom: 150px;
+    @media(max-width: 940px){
+        position: relative;
+        height: auto;
+        flex-direction: column;
+        bottom: 0;
+    }
 `
     
 const Block = styled.div`
@@ -62,6 +76,10 @@ const Block = styled.div`
         color: var(--color-gray);
         font-size: 14px;
     }
+
+    @media(max-width: 940px){
+        max-width: 400px;
+    }
 `
 
 const Img = styled(Image)`
@@ -70,6 +88,11 @@ const Img = styled(Image)`
     position: relative;
     bottom: 80px;
     right: 100px;
+    @media(max-width: 940px){
+        bottom: -20px;
+        right: 0px;
+        margin: 0 auto;
+    }
 `
 
 const ImgLogo = styled(Image)`
@@ -78,4 +101,8 @@ const ImgLogo = styled(Image)`
     z-index: 1;
     height: 250px;
     width: auto;
+    @media(max-width: 940px){
+        display: none;
+    }
+
 `

@@ -28,4 +28,8 @@ const Container = styled.div`
     color: var(--color-white);
     font-weight: 200;
   }
+
+  @media(max-width: 740px){
+    text-align: center;
+  }
 `;

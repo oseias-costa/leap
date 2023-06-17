@@ -23,4 +23,6 @@ const Container = styled.div`
 `;
 const Text = styled.p``;
 
-const H3 = styled.h3``;
+const H3 = styled.h3`
+  font-size: 24px;
+`;

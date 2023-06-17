@@ -31,6 +31,10 @@ export default function Contact() {
 const Container = styled.section`
   position: relative;
   height: 270px;
+  @media(max-width: 940px){
+    height: auto;
+    padding-bottom: 40px;
+  }
 `;
 
 const Img = styled(Image)`
@@ -55,6 +59,10 @@ const Contacts = styled.div`
   display: flex;
   position: relative;
   justify-content: center;
+  flex-wrap: wrap;
+  @media(max-width: 940px){
+    align-items: center;
+  }
 `;
 
 const ContactBlock = styled.div`
@@ -67,6 +75,10 @@ const ContactBlock = styled.div`
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   width: 373.78px;
+  @media(max-width: 940px){
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
 `;
 
 const Icon = styled(Image)`

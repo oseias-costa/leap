@@ -37,7 +37,7 @@ export default function Footer() {
           label={contact.info[1].title}
           content={contact.info[1].content}
         />
-        <div className="BlockRight__Social-Midia">{socialMidia}</div>
+        <SocialMidia>{socialMidia}</SocialMidia>
       </BlockRight>
     </Container>
   );
@@ -49,19 +49,34 @@ const Container = styled.section`
   justify-content: space-around;
   padding-top: 50px;
   padding-bottom: 20px;
+  flex-wrap: wrap;
+  @media(max-width: 740px){
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const LogoBlock = styled.div``;
 
 const BlockRight = styled.div`
-  BlockRight__Social-Midia {
-    display: flex;
-  }
 `;
+
+const SocialMidia = styled.div`
+  display: flex;
+  @media(max-width: 740px){
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+`
 
 const Menu = styled.div`
   display: flex;
   flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  @media(max-width: 740px){
+    text-align: center;
+  }
 `;
 
 const IconLogo = styled(Image)``;

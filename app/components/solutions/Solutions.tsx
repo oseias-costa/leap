@@ -49,6 +49,16 @@ const SolutionBlockLeft = styled.div`
   position: relative;
   left: 21px;
 
+  @media(max-width: 940px){
+    width: auto;
+    margin-right: 0px;
+    border-right: 0px solid #939191;
+    left: 0;
+    text-align: center;
+    margin-top: 85px;
+    margin-bottom: 60px;
+  }
+
   .title {
     height: 50px;
     padding-bottom: 10px;
@@ -61,6 +71,13 @@ const SolutionBlockLeft = styled.div`
       width: 4px;
       bottom: 201px;
       right: 292px;
+      @media(max-width: 940px){
+        height: 170px;
+        right: 0px;
+        left: 0px;
+        margin: 0 auto;
+        bottom: 201px;
+      }
     }
   }
 
@@ -76,7 +93,11 @@ const SolutionBlockLeft = styled.div`
       left: 200px;
       bottom: 220px;
       z-index: 1;
+      @media(max-width: 940px){
+        display: none;
+      }
     }
+
   }
 `;
 const SolutionBlockRight = styled.div`
@@ -87,6 +108,17 @@ const SolutionBlockRight = styled.div`
   margin-left: 540px;
   position: relative;
   right: 21px;
+
+  @media(max-width: 940px){
+    margin-top: 85px;
+    margin-left: 0px;
+    border-left: 0px solid #939191;
+    width: auto;
+    right: 0px;
+    text-align: center;
+    padding-left: 20px;
+    margin-bottom: 40px;
+  }
 
   .title {
     height: 50px;
@@ -101,6 +133,12 @@ const SolutionBlockRight = styled.div`
       width: 4px;
       bottom: 201px;
       right: 216px;
+      @media(max-width: 940px){
+        height: 170px;
+        right: 0px;
+        left: 0px;
+        margin: 0 auto;
+      }
     }
   }
 
@@ -117,7 +155,11 @@ const SolutionBlockRight = styled.div`
       left: 0px;
       bottom: 220px;
       z-index: 1;
+      @media(max-width: 940px){
+        display: none;
+      }
     }
+
   }
 `;
 
@@ -135,6 +177,12 @@ const IconLeft = styled(Image)`
   width: 96px;
   height: 96px;
   z-index: 2;
+
+  @media(max-width: 940px){
+    left: 0;
+    margin: 0 auto;
+    bottom: 70px;
+  }
 `;
 
 const IconRight = styled(Image)`
@@ -145,4 +193,10 @@ const IconRight = styled(Image)`
   width: 96px;
   height: 96px;
   z-index: 2;
+
+  @media(max-width: 940px){
+    right: 0;
+    margin: 0 auto;
+    bottom: 70px;
+  }
 `;
