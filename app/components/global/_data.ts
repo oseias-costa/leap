@@ -19,7 +19,7 @@ export const services = [
   {
     title: "ASSUNTOS  REGULATÓRIOS",
     content:
-      "Oferecemos consultoria em questões regulatórias, abrangendo áreas como a Autorização de Funcionamento de Empresa (AFE), ANVISA/MAPA e Responsabilidade Técnica (RT). Nossa expertise garante que sua empresa esteja plenamente em conformidade com todas as regulamentações e normas aplicáveis, permitindo que você se concentre em suas operações principais com confiança.",
+      "Oferecemos consultoria em questões regulatórias, abrangendo áreas como a Autorização de Funcionamento de Empresa (AFE) com ANVISA e Responsabilidade Técnica (RT). Nossa expertise garante que sua empresa esteja plenamente em conformidade com todas as regulamentações e normas aplicáveis, permitindo que você se concentre em suas operações principais com confiança.",
     img: Legal,
   },
   {
