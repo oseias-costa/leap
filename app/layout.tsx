@@ -5,7 +5,7 @@ import { GlobalStyle } from "./GlobalStyle";
 export const metadata = {
   title: "Leap Engenharia Química",
   description:
-    "Impulsione seu negócio com a Leap. Regularizamos sua Empresa na ANVISA/MAPA, otimizamos seus processos industriais e trazemos sustentabilidade para sua operação.",
+    "Impulsione seu negócio com a Leap. Regularizamos sua Empresa na ANVISA, otimizamos seus processos industriais e trazemos sustentabilidade para sua operação.",
 };
 
 const Mollen = localFont({
