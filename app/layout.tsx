@@ -1,6 +1,8 @@
 import StyledComponentsRegistry from "./lib/registry";
 import localFont from "next/font/local";
 import { GlobalStyle } from "./GlobalStyle";
+import Google from "./components/global/Google";
+import GoogleBody from "./components/global/GoogleBody";
 
 export const metadata = {
   title: "Leap Engenharia Química",
@@ -37,8 +39,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <Google />
+      </head>
       <GlobalStyle />
       <body className={`${Mollen.variable}`}>
+        <GoogleBody />
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
       </body>
     </html>
