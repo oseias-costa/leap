@@ -40,9 +40,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <GlobalStyle />
         <Google />
       </head>
-      <GlobalStyle />
       <body className={`${Mollen.variable}`}>
         <GoogleBody />
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
