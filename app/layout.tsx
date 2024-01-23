@@ -1,3 +1,4 @@
+"use client";
 import StyledComponentsRegistry from "./lib/registry";
 import localFont from "next/font/local";
 import { GlobalStyle } from "./GlobalStyle";
@@ -32,7 +33,7 @@ const Mollen = localFont({
   variable: "--font-mollen",
 });
 
-export default function RootLayout({
+function RootLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -50,3 +51,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+export default RootLayout
