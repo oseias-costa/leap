@@ -1,5 +1,3 @@
-"use client";
-
 import StyledComponentsRegistry from "./lib/registry";
 import localFont from "next/font/local";
 import { GlobalStyle } from "./GlobalStyle";
@@ -42,8 +40,6 @@ function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Leap Engenharia Química</title>
-        <meta name="description" content="Impulsione seu negócio com a Leap. Regularizamos sua Empresa na ANVISA, otimizamos seus processos industriais e trazemos sustentabilidade para sua operação." />
         <GlobalStyle />
         <Google />
       </head>

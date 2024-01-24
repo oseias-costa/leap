@@ -12,17 +12,23 @@ import WhoAreUs from "./components/whoAreUs/WhoAreUs";
 
 export default function Home() {
   return (
-    <Container>
-      <Header />
-      <Headline />
-      <Services />
-      <Solutions />
-      <Schedule />
-      <WhoAreUs />
-      <Contact />
-      <Footer />
-      <Whatsapp />
-    </Container>
+    <>
+      <head>
+        <title>Leap Engenharia Química</title>
+        <meta name="description" content="Impulsione seu negócio com a Leap. Regularizamos sua Empresa na ANVISA, otimizamos seus processos industriais e trazemos sustentabilidade para sua operação." />
+      </head>
+      <Container>
+        <Header />
+        <Headline />
+        <Services />
+        <Solutions />
+        <Schedule />
+        <WhoAreUs />
+        <Contact />
+        <Footer />
+        <Whatsapp />
+      </Container>
+    </>
   );
 }
 
