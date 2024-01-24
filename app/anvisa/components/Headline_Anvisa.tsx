@@ -34,6 +34,7 @@ const Container = styled.section`
   position: fixed;
   top: 0px;
   z-index: 0;
+  position: relative;
 `;
 
 const Content = styled.div`
