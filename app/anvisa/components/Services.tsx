@@ -25,6 +25,13 @@ export default function Services(){
 }
 
 const Container = styled.section`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+
     h2 {
         text-align: center;
         color: #002A40;
@@ -43,6 +50,12 @@ const ServiceBlock = styled.div`
     justify-content: center;
     padding-top: 60px;
     text-align: left;
+
+    @media(max-width: 900px){
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
     `
 const ServiceItem = styled.div`
     border: 1px solid #002A40;
@@ -90,5 +103,11 @@ const ButtonService = styled.a`
 
     &:hover {
         box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+
+    @media(max-width: 740px){
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 `

@@ -43,7 +43,8 @@ const Content = styled.div`
   text-align: center;
   max-width: 900px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 `;
 
 const Img = styled(Image)`
@@ -87,6 +88,10 @@ const HeadlineContent = styled.div`
 
         &:hover {
             box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        }
+
+        @media(max-width: 740px){
+            display: block;
         }
     }
 `

@@ -5,6 +5,7 @@ import HeadlineAnvisa from "./components/Headline_Anvisa";
 import Solutions from "./components/Solutions";
 import Destak from "./components/Destak";
 import Services from "./components/Services";
+import FooterAnvisa from "./components/FooterAnvisa";
 
 export default function Anvisa(){
     return (
@@ -19,6 +20,7 @@ export default function Anvisa(){
             <Solutions />
             <Destak />
             <Services />
+            <FooterAnvisa />
         </Container>
         </>
     )

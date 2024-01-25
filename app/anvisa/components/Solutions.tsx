@@ -47,6 +47,10 @@ export default function Solutions(): JSX.Element{
 const Container = styled.section`
     margin-top: 80px;
     postion: relative;
+    @media(max-width: 900px) {
+        padding-bottom: 60px;
+        margin-top: 40px;
+    }
     `
 
 const Body = styled.div`
