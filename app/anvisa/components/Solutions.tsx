@@ -46,7 +46,9 @@ export default function Solutions(): JSX.Element{
 
 const Container = styled.section`
     margin-top: 80px;
+    margin-bottom: 80px;
     postion: relative;
+
     @media(max-width: 900px) {
         padding-bottom: 60px;
         margin-top: 40px;
@@ -57,6 +59,8 @@ const Body = styled.div`
     border: 1px solid #002A40;
     display: flex;
     justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto; 
     border-radius: 20px;
     // margin-left: 10%;
     // margin-right: 10%;

@@ -3,16 +3,16 @@ import Image from "next/image";
 import styled from "styled-components";
 import Logo from "../../../public/header/logo-leap-header.png";
 
-export default function Header() {
+export default function HeaderAnvisa() {
   return (
     <Container>
       <Img src={Logo} alt="Logo Leap Engenharia Química" />
       <Menu>
-        <A href="#Inicio">Início</A>
-        <A href="https://www.leapengenharia.com.br/anvisa">ANVISA</A>
-        <A href="#Atuacao">Atuação</A>
-        <A href="#Solucoes">Soluções</A>
-        <A href="#Contato">Contato</A>
+        <A href="https://www.leapengenharia.com.br/#Inicio">Início</A>
+        <A href="#">ANVISA</A>
+        <A href="https://www.leapengenharia.com.br/#Atuacao">Atuação</A>
+        <A href="https://www.leapengenharia.com.br/#Solucoes">Soluções</A>
+        <A href="https://www.leapengenharia.com.br/#Contato">Contato</A>
       </Menu>
     </Container>
   );

@@ -6,6 +6,9 @@ import Solutions from "./components/Solutions";
 import Destak from "./components/Destak";
 import Services from "./components/Services";
 import FooterAnvisa from "./components/FooterAnvisa";
+import Google from "../components/global/Google";
+import GoogleBody from "../components/global/GoogleBody";
+import HeaderAnvisa from "./components/HeaderAnvisa";
 
 export default function Anvisa(){
     return (
@@ -13,9 +16,11 @@ export default function Anvisa(){
         <head>
             <title>Leap Engenharia Química | Consultoria Regulatória ANVISA</title>
             <meta name="description" content=" Somos especialistas em assuntos regulatórios na ANVISA. Realizamos consultoria regulatória da ANVISA em todo o Brasil e atuamos como responsáveis técnicos em SC" />
+            <Google id="NFPDFG4X" />
         </head>
         <Container>
-            <Header />
+            <GoogleBody id="NFPDFG4X" />
+            <HeaderAnvisa />
             <HeadlineAnvisa />
             <Solutions />
             <Destak />

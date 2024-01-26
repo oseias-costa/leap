@@ -50,6 +50,7 @@ const ServiceBlock = styled.div`
     justify-content: center;
     padding-top: 60px;
     text-align: left;
+    padding-bottom: 40px;
 
     @media(max-width: 900px){
         flex-wrap: wrap;

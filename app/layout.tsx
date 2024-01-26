@@ -41,10 +41,8 @@ function RootLayout({
     <html lang="en">
       <head>
         <GlobalStyle />
-        <Google />
       </head>
       <body className={`${Mollen.variable}`}>
-        <GoogleBody />
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
       </body>
     </html>

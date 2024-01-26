@@ -24,10 +24,10 @@ export default function FooterAnvisa() {
         />
       </LogoBlock>
       <Menu>
-        <A href="#Inicio">Início</A>
-        <A href="#Servicos">Serviços</A>
-        <A href="#Solucoes">Soluções</A>
-        <A href="#QuemSomos">Quem Somos</A>
+        <A href="https://www.leapengenharia.com.br/#Inicio">Início</A>
+        <A href="https://www.leapengenharia.com.br/#Atuacao">Atuação</A>
+        <A href="https://www.leapengenharia.com.br/#Solucoes">Soluções</A>
+        <A href="https://www.leapengenharia.com.br/#Contato">Contato</A>
       </Menu>
       <BlockRight>
         <FooterInfo
@@ -85,4 +85,9 @@ const A = styled.a`
   font-weight: 300;
   padding-top: 5px;
   padding-bottom: 5px;
+  transition: 0.3s linear;
+
+  &:hover {
+    font-weight: 500;
+  }
 `;

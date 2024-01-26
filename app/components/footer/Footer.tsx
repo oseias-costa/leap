@@ -84,4 +84,9 @@ const A = styled.a`
   font-weight: 300;
   padding-top: 5px;
   padding-bottom: 5px;
+  transition: 0.3s linear;
+
+  &:hover {
+    font-weight: 500;
+  }
 `;

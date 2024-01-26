@@ -28,8 +28,8 @@ const Container = styled.section`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100vw;
   padding: 10px;
+  padding-top: 100px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   position: fixed;
   top: 0px;
