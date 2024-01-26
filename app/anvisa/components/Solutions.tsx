@@ -58,8 +58,8 @@ const Body = styled.div`
     display: flex;
     justify-content: center;
     border-radius: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    // margin-left: 10%;
+    // margin-right: 10%;
     padding-top: 30px;
 
     @media(max-width: 1000px){
