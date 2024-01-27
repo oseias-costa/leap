@@ -2,6 +2,7 @@
 import styled from "styled-components"
 import Background from "@/public/anvisa/background-anvisa.png"
 import Image from "next/image";
+import { contact } from "@/app/components/global/_data";
 
 export default function HeadlineAnvisa(){
     return(
@@ -14,9 +15,9 @@ export default function HeadlineAnvisa(){
             />
             <Content>
                 <HeadlineContent>
-                    <h1>Mantenha-se em conformidade com a Anvisa! Tenha uma consultoria personalizada!</h1>
+                    <h1>Mantenha-se em conformidade com a ANVISA! Tenha uma consultoria personalizada!</h1>
                     <p>Aprovação na ANVISA sem estresse! Nossa consultoria é sua aliada para enfrentar e superar os desafios regulatórios. Deixe-nos guiar sua empresa para o sucesso com soluções adaptadas às suas necessidades.</p>
-                    <a>Fale com um especialista agora</a>
+                    <a href={contact.whatsapp} target="_blank">Fale com um especialista agora</a>
                 </HeadlineContent>
             </Content>
         </Container>

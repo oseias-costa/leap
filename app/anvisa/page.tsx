@@ -9,6 +9,7 @@ import FooterAnvisa from "./components/FooterAnvisa";
 import Google from "../components/global/Google";
 import GoogleBody from "../components/global/GoogleBody";
 import HeaderAnvisa from "./components/HeaderAnvisa";
+import Whatsapp from "../components/whatsapp/Whatsapp";
 
 export default function Anvisa(){
     return (
@@ -26,6 +27,7 @@ export default function Anvisa(){
             <Destak />
             <Services />
             <FooterAnvisa />
+            <Whatsapp />
         </Container>
         </>
     )

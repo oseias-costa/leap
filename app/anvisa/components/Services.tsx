@@ -1,6 +1,7 @@
 "use client";
 import styled from "styled-components"
 import { data } from './servicesData'
+import { contact } from "@/app/components/global/_data";
 
 export default function Services(){
     const service = data.map((item) => {
@@ -19,7 +20,7 @@ export default function Services(){
             <h2>Serviços de regulação ANVISA Leap Engenharia</h2>
             <p className="p">Deixe-nos guiar sua empresa para o sucesso com soluções adaptadas às suas necessidades.</p>
             <ServiceBlock>{service}</ServiceBlock>
-            <ButtonService>Fale com um especialista hoje</ButtonService>
+            <ButtonService href={contact.whatsapp} target="_blank">Fale com um especialista hoje</ButtonService>
         </Container>
     )
 }

@@ -12,7 +12,7 @@ export const headline = {
     "Conquiste a eficiência com a Leap, sua melhor escolha da concepção à operação da sua Empresa",
   description:
     "Simplifique o processo regulatório do seu negócio com nossas soluções integradas: consultoria técnica e completa para seu empreendimento.",
-  textButton: "Mais informações",
+  textButton: "Fale com um especialista agora",
 };
 
 export const services = [
